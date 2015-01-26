@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "https://github.com/alexchueh/PIXToolbar"
+  s.homepage     = "https://github.com/pixnet/pixnet-ios-Toolbar"
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author       = { "alexchueh" => "shadow@pixnet.tw" }
   s.source       = { :git => "https://github.com/pixnet/pixnet-ios-Toolbar.git", :tag => "1.0.0" }

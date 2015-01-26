@@ -1,9 +1,9 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "PIXToolbar"
+  s.name         = "pixnet-ios-Toolbar"
   s.version      = "1.0.0"
-  s.summary      = "PIXToolbar"
+  s.summary      = "pixnet-ios-Toolbar"
 
   s.description  = <<-DESC
                    A longer description of PIXToolbar in Markdown format.

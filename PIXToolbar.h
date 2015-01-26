@@ -11,19 +11,43 @@
 @protocol PIXTextFieldAccessoryViewDeleage <NSObject>
 
 @optional
+/**
+ *  清除所有鍵盤上文字
+ *
+ *  @param viewTag UITextField的Tag
+ */
 - (void)accessoryViewClearBtnDidClicked:(NSInteger)viewTag;
+/**
+ *  鍵盤的取消鍵
+ *
+ *  @param viewTag UITextField的Tag
+ */
 - (void)accessoryViewCancelBtnDidClicked:(NSInteger)viewTag;
+/**
+ *  鍵盤的確定鍵
+ *
+ *  @param viewTag UITextField的Tag
+ */
 - (void)accessoryViewDoneBtnDidClicked:(NSInteger)viewTag;
 @end
 
 @interface PIXToolbar : UIToolbar
 
-typedef NS_ENUM(NSInteger, AccessoryType)
-{
+/**
+ *  鍵盤類型
+ */
+typedef NS_ENUM(NSInteger, AccessoryType){
+    /**
+     *  預設(清除，取消，確定)
+     */
     AccessoryTypeClearCancelDone = 0,
-    
 };
 
+/**
+ *  設定鍵盤類型
+ *
+ *  @param type AccessoryType
+ */
 - (void)setType:(AccessoryType)type;
 
 @property (assign,nonatomic) id<PIXTextFieldAccessoryViewDeleage>PIXDeleage;

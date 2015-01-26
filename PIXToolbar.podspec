@@ -1,9 +1,9 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "pixnet-ios-Toolbar"
-  s.version      = "1.0.0"
-  s.summary      = "pixnet-ios-Toolbar"
+  s.name         = "PIXToolbar"
+  s.version      = "1.0.2"
+  s.summary      = "PIXToolbar"
 
   s.description  = <<-DESC
                    A longer description of PIXToolbar in Markdown format.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/pixnet/pixnet-ios-Toolbar"
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author       = { "alexchueh" => "shadow@pixnet.tw" }
-  s.source       = { :git => "https://github.com/pixnet/pixnet-ios-Toolbar.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/pixnet/pixnet-ios-Toolbar.git", :tag => "1.0.2" }
   s.platform     = :ios, "7.0"
 
   s.source_files  =  "**/*.{h,m}"
